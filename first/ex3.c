@@ -10,4 +10,5 @@ int main(void){
         sum += i;
     }
     printf("奇数の和=%d\n",sum);
+    return 0;
 }

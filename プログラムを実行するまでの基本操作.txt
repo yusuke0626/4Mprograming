@@ -1,0 +1,15 @@
+1. Ubuntuを起動する
+2. code ファイル名　と入力しEnter
+3. VScodeが開くのでそこにプログラムを書く
+4. できたらCtrl+Shift+@でターミナルが開く
+5. gcc ファイル名　でコンパイル
+6. ./a.outで実行
+
+ターミナルの基本操作
+ls 今いるフォルダ内のファイルの名前をすべて表示する
+mkdir フォルダの作成 ex. mkdir first
+cd フォルダへの移動　ex. cd abc
+rm ファイルの削除　ex. rm practice1.c (フォルダごと消したいときはrm -rf フォルダ名)
+mv ファイルの移動＆ファイルの名前の変更　ex.mv practice1.c abc (practice1.cをabcフォルダの中へ移動) mv practice1.c practice2.c (practice1.cをpractice2.cに改称)
+gcc c言語のファイルをコンパイル
+code vscodeを起動

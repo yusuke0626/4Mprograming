@@ -24,7 +24,6 @@ int main(void){
     add_matrix(a,b,c);
     printf("a + bの行列は\n");
     for(i = 0; i <= 2; i++){
-
         printf("%d %d %d\n",c[i][0],c[i][1],c[i][2]);
     }
 

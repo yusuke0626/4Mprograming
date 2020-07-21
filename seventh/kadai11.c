@@ -7,7 +7,7 @@ typedef struct book {
     int year;
 }Book;
 
-void struct_order(Book*);
+void struct_order(Book[]);
 
 int main(void){
     Book hon[5] = {{"Akashi","A","明石出版",1900},
@@ -24,15 +24,15 @@ int main(void){
     }
 }
 
-void struct_order(Book *hon){
+void struct_order(Book hon[]){
     int i,j;
     Book tmp;
     for (i = 0;i < 5; i++){
         for(j = i+1;j < 5;j++){
-            if(((hon+i)->year) > ((hon+j)->year)){
-                tmp      = *(hon+i);
-                *(hon+i) = *(hon+j);
-                *(hon+j) = tmp;
+            if((hon[i].year) > (hon[j].year)){
+                tmp      = hon[i];
+                hon[i]   = hon[j];
+                hon[j]   = tmp;
             }
         }
     }
